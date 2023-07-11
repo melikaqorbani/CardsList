@@ -17,12 +17,10 @@ $card-shadow-color: rgba(0, 0, 0, 0.2);
 
 .content{
   padding: 10px;
-
-
-
 }
 
-.card {
+.card { 
+  width: 90%; 
   position: relative;
   background-color: $card-bg-color;
   box-shadow: 0 2px 4px $card-shadow-color;
