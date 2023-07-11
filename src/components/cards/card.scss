@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$card-bg-color: #fff;
+$card-shadow-color: rgba(0, 0, 0, 0.2);
+
+.logoSec{
+  position: absolute;
+  right: -22px;
+  bottom: 130px;
+
+
+  .logo {
+    width: 40%;
+    border-radius: 100%;
+  }
+}
+// .logo{
+ 
+
+// }
+
+.content{
+  padding: 10px;
+
+
+
+}
+
+.card {
+  position: relative;
+  background-color: $card-bg-color;
+  box-shadow: 0 2px 4px $card-shadow-color;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 8px $card-shadow-color;
+  }
+
+ 
+  
+    }
+  h3 {
+    margin: 20px 0 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  p {
+    margin: 0 0 20px;
+    font-size: 1rem;
+    color: $secondary-color;
+  }
+  .backImg{
+    width: 100%;
+  }
